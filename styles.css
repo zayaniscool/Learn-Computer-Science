@@ -10,13 +10,14 @@ body {
 
 body h2 {
   font-family: Poppins,sans-serif;
-  font-size: 55;
+  font-size: 75;
 }
 
 body p {
-  font-size: larger;
+  font-size: large;
   text-indent: 0.5in;
   font-weight: bolder;
+  font-family: Poppins, serif;
 }
 
 header {
@@ -64,6 +65,39 @@ nav a:hover {
   color: #ffffff;
 }
 
+nav2 ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#ffb1b1;
+}
+
+nav2 li {
+  margin: 0 20px;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#ffb1b1;
+}
+
+nav2 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#ffb1b1;
+}
+
+nav2 a:hover {
+  color: #ffffff;
+}
+
 main {
   margin-top: 70px; /* Ensure content is below the fixed header */
 }
@@ -99,6 +133,7 @@ main {
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+  font-family: Poppins,sans-serif;
 }
 
 .hero-content {
@@ -135,6 +170,7 @@ opacity: 1;
 .hero2 p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+  font-family: Poppins,sans-serif;
 }
 
 .hero2-content {
@@ -176,11 +212,51 @@ margin-left: -800px;
 .hero3 p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+  font-family: Poppins,sans-serif;
 }
 
 .hero3-content {
 opacity: 1;
 margin-left: 700px;
+}
+
+
+.hero4 {
+  background-image: url('images/yes.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 200px 0;
+  font-family: Poppins,sans-serif;
+}
+
+.hero4 img {
+  opacity: 0.3;
+}
+
+.hero4 h1 {
+  font-size: 75px;
+  margin-bottom: 20px;
+  font-family: Poppins,sans-serif;
+}
+
+.hero4 h2 {
+  font-family: Poppins,sans-serif;
+  font-size: 35px;
+  color: #fe6983;
+}
+
+
+
+.hero4 p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  font-family: Poppins,sans-serif;
+}
+
+.hero4-content {
+opacity: 1;
 }
 
 .cta-button {
@@ -230,6 +306,14 @@ footer {
   font-size: 25px;
 }
 
+.hero4:nth-child(1) .cta-button {
+  background-color: #ff0000; 
+  color: #ffffff;
+  width: 250px;
+  height: auto;
+  font-size: 25px;
+}
+
 .logo {
 float: left;
 font-size: 10px;
@@ -259,7 +343,7 @@ font-size: 10px;
 
 .small-image {
   background-image: url('images/blur_edges\ \(3\).png');
-  margin-left: 1500px;
+  margin-left: 1600px;
   margin-top: -400px;
   width: 50px;
   height: auto;
@@ -268,15 +352,57 @@ font-size: 10px;
 }
 
 .small-image2 {
-  margin-left: -500px;
-  margin-top: -400px;
-  width: 100px;
+  margin-left: -450px;
+  margin-top: -780px;
+  width: 300px;
   height: auto;
   opacity: 1;
   z-index: 0;
 }
 
 .small-image2 img {
-  width: 695px; /* Adjust the width as needed */
+  width: 795px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
+}
+
+.small-image2 {
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+
+.smaller-image2-in-front {
+  margin-left: -1975px;
+  z-index: 9999;
+  margin-top: -500px;
+}
+
+/* styles.css */
+/* ... Your existing styles ... */
+
+.smaller-image2-in-front img {
+  width: -250px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.smaller-image3-in-front {
+  margin-left: -915px;
+  z-index: 9999;
+  margin-top: 50px;
+}
+
+/* styles.css */
+/* ... Your existing styles ... */
+
+.smaller-image3-in-front img {
+  width: 450px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+p {
+  font-family: Poppins, serif;
+}
+
+h2 {
+  font-family: Poppins,sans-serif;
 }
