@@ -1,4 +1,3 @@
-/* styles.css */
 body {
   font-family: Poppins,sans-serif;
   margin: 0;
@@ -98,8 +97,76 @@ nav2 a:hover {
   color: #ffffff;
 }
 
+
+
+nav3 ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#b1ffb7;
+}
+
+nav3 li {
+  margin: 0 20px;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#b1ffb7;
+}
+
+nav3 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#b1ffb7;
+}
+
+nav3 a:hover {
+  color: #ffffff;
+}
+
+nav4 ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#f7ffb1;
+}
+
+nav4 li {
+  margin: 0 20px;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#f7ffb1;
+}
+
+nav4 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  color:#f7ffb1;
+}
+
+nav4 a:hover {
+  color: #ffffff;
+}
+
 main {
-  margin-top: 70px; /* Ensure content is below the fixed header */
+  margin-top: 70px; 
 }
 
 .hero {
@@ -122,6 +189,8 @@ main {
   font-family: Poppins,sans-serif;
 }
 
+
+
 .hero h2 {
   font-family: Poppins,sans-serif;
   font-size: 35px;
@@ -139,6 +208,8 @@ main {
 .hero-content {
 opacity: 1;
 }
+
+
 
 .hero2 {
   background-image: url('images/BEjNoT.jpg');
@@ -259,6 +330,84 @@ margin-left: 700px;
 opacity: 1;
 }
 
+.hero5 {
+  background-image: url('images/yes.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 200px 0;
+  font-family: Poppins,sans-serif;
+}
+
+.hero5 img {
+  opacity: 0.3;
+}
+
+.hero5 h1 {
+  font-size: 75px;
+  margin-bottom: 20px;
+  font-family: Poppins,sans-serif;
+}
+
+.hero5 h2 {
+  font-family: Poppins,sans-serif;
+  font-size: 35px;
+  color: #fe6983;
+}
+
+
+
+.hero5 p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  font-family: Poppins,sans-serif;
+}
+
+.hero5-content {
+opacity: 1;
+}
+
+.hero6 {
+  background-image: url('images/yes.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 200px 0;
+  font-family: Poppins,sans-serif;
+}
+
+.hero6 img {
+  opacity: 0.3;
+}
+
+.hero6 h1 {
+  font-size: 75px;
+  margin-bottom: 20px;
+  font-family: Poppins,sans-serif;
+}
+
+.hero6 h2 {
+  font-family: Poppins,sans-serif;
+  font-size: 35px;
+  color: #fe6983;
+}
+
+
+
+.hero6 p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  font-family: Poppins,sans-serif;
+}
+
+.hero6-content {
+opacity: 1;
+}
+
+
+
 .cta-button {
   display: inline-block;
   padding: 12px 30px;
@@ -314,16 +463,30 @@ footer {
   font-size: 25px;
 }
 
+.hero5:nth-child(1) .cta-button {
+  background-color: #008b0c; 
+  color: #ffffff;
+  width: 150px;
+  height: auto;
+  font-size: 21px;
+}
+
+.hero6:nth-child(1) .cta-button {
+  background-color: #8e9100; 
+  color: #ffffff;
+  width: 150px;
+  height: auto;
+  font-size: 19px;
+}
+
 .logo {
 float: left;
 font-size: 10px;
 }
 
-/* styles.css */
-/* ... Your existing styles ... */
 
 .small-image {
-  position: relative; /* Ensure relative positioning for absolute children */
+  position: relative;
 }
 
 
@@ -333,12 +496,10 @@ font-size: 10px;
   margin-top: -400px;
 }
 
-/* styles.css */
-/* ... Your existing styles ... */
 
 .smaller-image-in-front img {
-  width: 550px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 550px; 
+  height: auto; 
 }
 
 .small-image {
@@ -361,12 +522,12 @@ font-size: 10px;
 }
 
 .small-image2 img {
-  width: 795px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 795px;
+  height: auto; 
 }
 
 .small-image2 {
-  position: relative; /* Ensure relative positioning for absolute children */
+  position: relative;
 }
 
 
@@ -376,12 +537,11 @@ font-size: 10px;
   margin-top: -500px;
 }
 
-/* styles.css */
-/* ... Your existing styles ... */
+
 
 .smaller-image2-in-front img {
-  width: -250px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: -250px; 
+  height: auto; 
 }
 
 .smaller-image3-in-front {
@@ -390,12 +550,10 @@ font-size: 10px;
   margin-top: 50px;
 }
 
-/* styles.css */
-/* ... Your existing styles ... */
 
 .smaller-image3-in-front img {
-  width: 450px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 450px; 
+  height: auto; 
 }
 
 
@@ -405,4 +563,22 @@ p {
 
 h2 {
   font-family: Poppins,sans-serif;
+}
+
+.small-image3 {
+  margin-left: 1750px;
+  margin-top: -480px;
+  width: 300px;
+  height: auto;
+  opacity: 1;
+  z-index: 0;
+}
+
+.small-image3 img {
+  width: 695px; 
+  height: auto; 
+}
+
+.small-image3 {
+  position: relative;
 }
